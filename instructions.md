@@ -11,11 +11,25 @@ The following table, representing students in a course, is already in [first nor
 | 4             | 2          | 04.07.18 | Clayton   | Spreadsheet aggregate functions | WWH 201   | 65    | Zehnder Page 87     | j.c.3@foo.edu    |
 | ...           | ...        | ...      | ...       | ...                             | ...       | ...   | ...                 | ...              |
 
+## Assumptions
+
+A few assumptions in this data:
+
+- Assume there are many rows of data following this structure... only 5 rows have been showed for brevity. The number of rows is not important to this assignment.
+- Assume the `relevant_reading` is relevant to a given assignment.
+- Assume a given professor might teach the same course more than once. This means the same professor could be in multiple classrooms and give the same assignments multiple times, but potentially with different due dates.
+
 ## Requirements
 
 ### Convert to 4NF
 
 Convert this table to the [fourth normal form](https://knowledge.kitchen/A_Simple_Guide_to_Five_Normal_Forms_in_Relational_Database_Theory#Fourth_Normal_Form) (4NF) using the techniques we have learned in this class.
+
+Notes:
+
+- There is no indication of which field is the primary key.
+- Use your own judgment as to which fields might be good candidate key(s).
+- Feel free to add any additional "surrogate key" fields you believe are necessary to make this data 4NF-compliant.
 
 ### Draw an Entity-Relationship Diagram
 
