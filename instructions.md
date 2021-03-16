@@ -13,26 +13,26 @@ The following table, representing students in a course, is already in [first nor
 
 ## Requirements
 
-### Convert to 3NF
+### Convert to 4NF
 
-Convert this table to the [third normal form](https://knowledge.kitchen/A_Simple_Guide_to_Five_Normal_Forms_in_Relational_Database_Theory#Third_Normal_Form) (3NF) using the techniques we have learned in this class.
+Convert this table to the [fourth normal form](https://knowledge.kitchen/A_Simple_Guide_to_Five_Normal_Forms_in_Relational_Database_Theory#Fourth_Normal_Form) (4NF) using the techniques we have learned in this class.
 
 ### Draw an Entity-Relationship Diagram
 
-Draw an Entity-Relationship Diagram(s) of your 3NF-compliant data tables. Use the tool, [draw.io](https://draw.io) (also known as diagrams.net) to create these diagrams. A [sample .drawio file](./images/example-er-diagrams.drawio) has been included in this repository for example.
+Draw an Entity-Relationship Diagram(s) of your 4NF-compliant data tables. Use the tool, [draw.io](https://draw.io) (also known as diagrams.net) to create these diagrams. A [sample .drawio file](./images/example-er-diagrams.drawio) has been included in this repository for example.
 
 - export the diagram(s) in SVG format into the directory named `images`.
 - publish the diagram(s) to your report, as described below.
 
 ### Write a report
 
-Write a wonderfully-formatted Markdown report in the file named `README.md`. Make sure your document renders nicely as a web page, with clear headings, sub-headings, and text. Include a full description of your solution explaining what about the original data set was not 3NF compliant and what changes you made to make it 3NF-compliant. Be specific, and include at a minimum:
+Write a wonderfully-formatted Markdown report in the file named `README.md`. Make sure your document renders nicely as a web page, with clear headings, sub-headings, and text. Include a full description of your solution explaining what about the original data set was not 4NF compliant and what changes you made to make it 4NF-compliant. Be specific, and include at a minimum:
 
 - a table containing the original data set (research how to write tables in Markdown or simply see the example table in this document's source code)
-- your description of what makes this data set not compliant with 3NF
-- tables containing the 3NF-compliant version of the data set
-- the ER diagram(s) you created of your 3NF-compliant version of the data set (this diagram must be visible on the `README.md` document, not simply linked from there - research how to publish images to your pages in Markdown or simply see the example image in this document's source code)
-- your description of what changes you made and how these changes make the data 3NF-compliant
+- your description of what makes this data set not compliant with 4NF
+- tables containing the 4NF-compliant version of the data set
+- the ER diagram(s) you created of your 4NF-compliant version of the data set (this diagram must be visible on the `README.md` document, not simply linked from there - research how to publish images to your pages in Markdown or simply see the example image in this document's source code)
+- your description of what changes you made and how these changes make the data 4NF-compliant
 
 ## Submit your work
 
