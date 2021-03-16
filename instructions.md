@@ -2,14 +2,14 @@
 
 The following table, representing students in a course, is already in [first normal form](https://knowledge.kitchen/A_Simple_Guide_to_Five_Normal_Forms_in_Relational_Database_Theory#FIRST_NORMAL_FORM) (1NF) - all records have the same number of fields, and there is only one value per field.
 
-| assignment_id | student_id | due_date | professor | assignment_topic                | classroom | grade | textbook | professor_email  |
-| :------------ | :--------- | :------- | :-------- | :------------------------------ | :-------- | :---- | :------- | :--------------- |
-| 1             | 1          | 23.02.18 | Bloomberg | Data normalization              | WWH 101   | 80    | Deumlich | bloo@foo.edu     |
-| 2             | 1          | 18.11.18 | Engel     | Single table queries            | 60FA 314  | 25    | Dümmlers | d.e.1234@foo.edu |
-| 1             | 4          | 23.02.18 | Bloomberg | Data normalization              | WWH 101   | 75    | Deumlich | bloo@foo.edu     |
-| 5             | 2          | 05.05.18 | Engel     | Python and pandas               | 60FA 314  | 92    | Dümmlers | d.e.1234@foo.edu |
-| 4             | 2          | 04.07.18 | Clayton   | Spreadsheet aggregate functions | WWH 201   | 65    | Zehnder  | j.c.3@foo.edu    |
-| ...           | ...        | ...      | ...       | ...                             | ...       | ...   | ...      | ...              |
+| assignment_id | student_id | due_date | professor | assignment_topic                | classroom | grade | relevant_reading    | professor_email  |
+| :------------ | :--------- | :------- | :-------- | :------------------------------ | :-------- | :---- | :------------------ | :--------------- |
+| 1             | 1          | 23.02.18 | Bloomberg | Data normalization              | WWH 101   | 80    | Deumlich Chapter 3  | bloo@foo.edu     |
+| 2             | 1          | 18.11.18 | Engel     | Single table queries            | 60FA 314  | 25    | Dümmlers Chapter 11 | d.e.1234@foo.edu |
+| 1             | 4          | 23.02.18 | Bloomberg | Data normalization              | WWH 101   | 75    | Deumlich Chapter 3  | bloo@foo.edu     |
+| 5             | 2          | 05.05.18 | Engel     | Python and pandas               | 60FA 314  | 92    | Dümmlers Chapter 14 | d.e.1234@foo.edu |
+| 4             | 2          | 04.07.18 | Clayton   | Spreadsheet aggregate functions | WWH 201   | 65    | Zehnder Page 87     | j.c.3@foo.edu    |
+| ...           | ...        | ...      | ...       | ...                             | ...       | ...   | ...                 | ...              |
 
 ## Requirements
 
