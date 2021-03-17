@@ -13,11 +13,20 @@ The following table, representing students in a course, is already in [first nor
 
 ## Assumptions
 
-A few assumptions in this data:
+This data represents information about a specific course, let's call it Database Design. The dependencies reflect the reality of how courses work in most universities.
+
+- each course can be taught by multiple professors in different sections
+- each professor might teach multiple sections of the course
+- each section meets in a specific classroom with a specific professor
+- professor give assignments, with specific due dates
+- a professor might give the same assignment to different sections of the same course, but with different due dates
+- professors give readings to help with the assignments
+- students complete assignments and receive a grade
+
+Further assumptions:
 
 - Assume there are many rows of data following this structure... only 5 rows have been showed for brevity. The number of rows is not important to this assignment.
 - Assume the `relevant_reading` is relevant to a given assignment.
-- Assume a given professor might teach the same course more than once. This means the same professor could be in multiple classrooms and give the same assignments multiple times, but potentially with different due dates.
 
 ## Requirements
 
